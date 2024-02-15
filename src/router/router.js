@@ -2,7 +2,6 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 
 const routes = [
-
     {
         path: "/newClient",
         component: () => import('../components/index.vue'),
@@ -29,7 +28,7 @@ const routes = [
     },
     {
         path: "/newPart",
-        component: () => import('../components/index.vue'),
+        component: () => import('../modules/inventario/page/CrearInventarioPage.vue'),
     },
     {
         path: "/findPart",
@@ -37,11 +36,11 @@ const routes = [
     },
     {
         path: "/newSupplier",
-        component: () => import('../components/index.vue'),
+        component: () => import('../modules/proveedor/page/CrearProveedorPage.vue'),
     },
     {
         path: "/findSupplier",
-        component: () => import('../components/index.vue'),
+        component: () => import('../modules/proveedor/page/ListarProveedoresPage.vue'),
     }
     
 ]

@@ -7,10 +7,10 @@
       <router-link to="/findOrder">Agregar</router-link>
       <router-link to="/newTecnique">Agregar</router-link>
       <router-link to="/findTecnique">Agregar</router-link>
-      <router-link to="/newPart">Agregar</router-link>
+      <router-link to="/newPart">CrearInventario</router-link>
       <router-link to="/findPart">Agregar</router-link>
-      <router-link to="/newSupplier">Agregar</router-link>
-      <router-link to="/findSupplier">Agregar</router-link>
+      <router-link to="/newSupplier">AgregarProv</router-link>
+      <router-link to="/findSupplier">ConsultarProv</router-link>
       <router-link to="/default"></router-link>
 
     </div>
