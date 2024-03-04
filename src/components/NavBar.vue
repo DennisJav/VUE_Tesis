@@ -8,7 +8,7 @@
       <router-link to="/newTecnique">Agregar</router-link>
       <router-link to="/findTecnique">Agregar</router-link>
       <router-link to="/newPart">CrearInventario</router-link>
-      <router-link to="/findPart">Agregar</router-link>
+      <router-link to="/findPart">Listar inventario</router-link>
       <router-link to="/newSupplier">AgregarProv</router-link>
       <router-link to="/findSupplier">ConsultarProv</router-link>
       <router-link to="/default"></router-link>

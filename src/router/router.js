@@ -28,11 +28,11 @@ const routes = [
     },
     {
         path: "/newPart",
-        component: () => import('../modules/inventario/page/CrearInventarioPage.vue'),
+        component: () => import('../modules/repuesto/page/CrearRepuestosPage.vue'),
     },
     {
         path: "/findPart",
-        component: () => import('../components/index.vue'),
+        component: () => import('../modules/repuesto/page/ListarRepuestosPage.vue'),
     },
     {
         path: "/newSupplier",
